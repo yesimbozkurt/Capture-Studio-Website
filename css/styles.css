@@ -1,7 +1,10 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Montserrat;
     margin: 0;
-    background-color: #FFF1C9;
+    background-color: background: rgba(255, 255, 255, 1);
+    background-blend-mode: multiply;
+    background: linear-gradient(233.95deg, #0D1E20 -73.12%, #313E2A 53.36%, #262D20 103.17%);
+    color: rgba(252, 67, 8, 1);
     z-index: -1;
 }
 
@@ -19,4 +22,12 @@ p,
 span,
 button {
     margin: 0;
+}
+
+#second {
+    background-color: rgba(14, 21, 19, 1);
+}
+
+footer {
+    background-color: rgba(14, 21, 19, 1);
 }
