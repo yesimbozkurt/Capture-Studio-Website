@@ -24,9 +24,220 @@ button {
     margin: 0;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 683px;
+}
+
+.header-svg {
+    display: flex;
+    gap: 10px;
+}
+
+header div ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+#hero {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+#hero img {
+    width: 496px;
+    height: 680px;
+}
+
+.hero-text {
+    padding: 117px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero-text h1 {
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 105px;
+    text-align: left;
+}
+
+.hero-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.hero-text button {
+    border-radius: 50px;
+    border: 0.74px solid rgba(252, 67, 8, 1);
+    width: 66px;
+    height: 66px;
+    background-color: rgba(252, 67, 8, 0.1);
+    box-shadow: -5.17px 6.65px 7.39px 0px, rgba(0, 0, 0, 0.05);
+}
+
 #second {
     background-color: rgba(14, 21, 19, 1);
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 80px 120px;
 }
+
+#second h2 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+#second .second-our-work {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+#second img {
+    width: 380px;
+    height: 500px;
+}
+
+#third img,
+#fourth img,
+#fifth img {
+    width: 560px;
+    height: 640px;
+}
+
+.second-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-img span {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.second-img h6 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18.9px;
+    letter-spacing: -0.065em;
+    text-align: left;
+}
+
+
+.second-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.second-button button {
+    width: 137px;
+    height: 38px;
+    border-radius: 3px;
+    border: 1px solid rgba(252, 67, 8, 1);
+    background-color: transparent;
+    color: rgba(252, 67, 8, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: center;
+}
+
+#third {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 80px 120px;
+}
+
+.third-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+    padding: 153px 0px;
+}
+
+.third-text h5,
+.fourth-text h5,
+.fifth-text h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px;
+}
+
+.third-text h3,
+.fourth-text h3,
+.fifth-text h3 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 50.4px;
+    letter-spacing: -0.065em;
+    text-align: left;
+}
+
+.third-text p,
+.fourth-text p,
+.fifth-text p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.fourth-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+    padding: 165px 0px;
+}
+
+#fourth {
+    display: flex;
+    flex-direction: row;
+    gap: 190px;
+    padding: 80px 120px;
+}
+
+#fifth {
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    padding: 80px 120px;
+}
+
+.fifth-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+    padding: 165px 0px;
+}
+
+
+#sixth img {
+    width: 1070px;
+    height: 625.5px;
+    padding: 80px 120px;
+}
+
 
 footer {
     background-color: rgba(14, 21, 19, 1);

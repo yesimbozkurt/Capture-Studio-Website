@@ -14,7 +14,12 @@
 </head>
 <body>
     <header>
-        <div>Capture Studio</div>
+        <div class="header-svg">
+            <svg width="17px" height="42px">
+                <use src="./images/icons.svg#capture"></use>
+            </svg>
+            <p>Capture Studio</p>
+        </div>
         <div>
             <ul>
                 <li>Projects</li>
@@ -30,11 +35,11 @@
     <main>
         <section id="hero">
             <!-- hero section -->
-             <div>
+             <div class="hero-text">
                 <h1>We Capture the World</h1>
                 <p>At our studio, we don't just take pictures - we capture the world. Our passion for photography goes beyond just snapping
                 a photo - we strive to create images that tell a story, evoke emotions, and capture the essence of the world around us.</p>
-                <button type="button" class="play"></button>
+                <button type="button" class="play">play</button>
              </div>
              <div>
                 <img src="./images/hero-image.png" alt="girl with bouquet in hand">
@@ -42,27 +47,35 @@
         </section>
         <section id="second">
             <!-- second section -->
-             <h2></h2>
              <div>
-                <img src="./images/aisha-patel.png" alt="Aisha Patel">
-                <span>2018</span>
-                <h6>Aisha Patel</h6>
+                 <h2>Our Work</h2>
              </div>
-             <div>
-                <img src="./images/isabella.png" alt="İsabella Costa">
-                <span>2021</span>
-                <h6>Isabella Costa</h6>
-             </div>
-             <div>
-                <img src="./images/fatima.png" alt="Fatima Hasan">
-                <span>2022</span>
-                <h6>Fatima Hasan</h6>
-             </div>
-             <button>View all work</button>
+            
+            <div class="second-our-work">
+                <div class="second-img">
+                    <img src="./images/aisha.png" alt="Aisha Patel">
+                    <span>2018</span>
+                    <h6>Aisha Patel</h6>
+                </div>
+                <div class="second-img">
+                    <img src="./images/isabella.png" alt="İsabella Costa">
+                    <span>2021</span>
+                    <h6>Isabella Costa</h6>
+                </div>
+                <div class="second-img">
+                    <img src="./images/fatima.png" alt="Fatima Hasan">
+                    <span>2022</span>
+                    <h6>Fatima Hasan</h6>
+                </div>
+            </div>
+            <div class="second-button">
+               <button>View all work</button> 
+            </div>
+             
         </section>
         <section id="third">
             <!-- third section -->
-             <div>
+             <div class="third-text">
                 <h5>MARCH 2022</h5>
                 <h3>Gabriela Silva</h3>
                 <p>Cras semper auctor neque vitae tempus. Neque volutpat ac tincidunt vitae. Eros donec ac odio tempor orci dapibus
@@ -79,7 +92,7 @@
              <div>
                 <img src="./images/amara.png" alt="Amara Lopez">
              </div>
-             <div>
+             <div class="fourth-text">
                 <h5>JANUARY 2010</h5>
                 <h3>Amara Lopez</h3>
                 <p>Tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Quam elementum pulvinar etiam non quam lacus suspendisse.
@@ -89,7 +102,7 @@
         </section>
         <section id="fifth">
             <!-- fifth section -->
-             <div>
+             <div class="fifth-text">
                 <h5>SEPTEMBER 2021</h5>
                 <h3>Priya Patel</h3>
                 <p>Et malesuada fames ac turpis egestas maecenas pharetra convallis. Aenean vel elit scelerisque mauris. Gravida neque
@@ -119,9 +132,10 @@
         </div>
         <div>
             <div>
-                <svg width="17.5px">
-                    <use src="./images/icons.svg#capture">Capture Studio</use>
+                <svg width="17px">
+                    <use src="./images/icons.svg#capture"></use>
                 </svg>
+                <p>Capture Studio</p>
             </div>
             <div>
                 <ul>
