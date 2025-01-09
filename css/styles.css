@@ -45,6 +45,7 @@ header div ul {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    padding: 80px 120px;
 }
 
 #hero img {
@@ -231,6 +232,13 @@ header div ul {
     padding: 165px 0px;
 }
 
+#sixth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 120px;
+}
 
 #sixth img {
     width: 1070px;
